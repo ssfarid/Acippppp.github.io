@@ -17,19 +17,12 @@ body{
     justify-content: center;
     min-height: 100vh;
     background-image: url(images/pattern-background-desktop.svg);
-
-
+    overflow-x: hidden;
+    
+    
 }
 
-section{
-    background: hsl(225, 100%, 94%);
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    position: relative;
-}
+
 
 /* background */
 
@@ -41,7 +34,7 @@ section{
     border-radius: 20px;
     text-align: center;
     position: relative;
-    padding: 20px;
+    margin: 50px 
 
 }
 
